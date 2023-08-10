@@ -1,0 +1,58 @@
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url(lord_of_the_rings.jpg);
+  background-size: cover;
+}
+
+h2 {
+  color: red;
+}
+
+img {
+  float: right;
+}
+
+p {
+  color: #AA4139;
+  text-align: center;
+  border: 5px dashed rgb(255, 176, 170);
+  cursor: pointer;
+}
+
+p {
+  line-height: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  font-size: 100%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext {
+  border: 5px dashed green;
+}
+
+.active {
+  color: red;
+}
+
+#div1{
+  background: rgba(0, 0, 255, 0.2);
+}
+
+#div2{
+  background: rgba(255, 0, 0, 0.2);
+
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
