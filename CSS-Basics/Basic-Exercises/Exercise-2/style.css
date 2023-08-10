@@ -1,0 +1,20 @@
+.odd_paragraph {
+  background-color: #FC9E89;
+  font-family: Verdana, DejaVu Sans, sans-serif;
+
+}
+
+#div1 {
+  color: blue;
+  font-size: 36px
+}
+
+.special {
+  font-size: 24px;
+}
+
+#div2 {
+  background-color: rgb(175, 252, 137);
+  font-size: 24px;
+  line-weight: bold;
+}
