@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+button, li, a, p {
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+button {
+  margin-top: 14px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+li:hover, button:hover {
+  background-color: lightgrey;
+}
+
+.nav_links li {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+/* Footer styling - flexbox. When hovered over black line appears below and icons scale up in size */
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  margin: 10px;
+  padding: 10px;
+}
+
+.social-media a img {
+  width: 30px;
+  height: 30px;
+  transition: border-bottom-color 0.5s, transform 0.5s;
+}
+
+.social-media a img:hover {
+  border-bottom: 2px solid black;
+  transform: scale(1.1)
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: center;
+}
+
