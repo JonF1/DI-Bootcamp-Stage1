@@ -1,6 +1,8 @@
 header {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
 }
 
 button, li, a, p, h1 {
@@ -30,6 +32,8 @@ li:hover, button:hover {
 
 .logo {
   cursor: pointer;
+  height: 70px;
+  width: 70px;
 }
 
 /* Footer styling - flexbox. When hovered over black line appears below and icons scale up in size */
@@ -52,7 +56,7 @@ li:hover, button:hover {
 
 .social-media a img:hover {
   border-bottom: 2px solid black;
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 .copyright {

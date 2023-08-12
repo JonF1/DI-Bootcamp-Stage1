@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img:hover {
+  filter: brightness(0.1);
+  transform: scale(1.1);
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s, filter 0.3s
+}
