@@ -1,0 +1,81 @@
+.timeline {
+  margin: 0 auto;
+  width: 750px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: 'Poiret One', cursive;
+  color: black;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 750px) {
+  .timeline {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-date {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .timeline-point {
+    display: none;
+  }
+
+  .timeline .timeline-right {
+    text-align: center;
+  }
+  
+  .timeline .timeline-left {
+    text-align: center;
+  }
+  
+}
+
+
+.timeline-component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline-card {
+  padding: 20px;
+  background: lightgrey;
+  border-radius: 10px;
+}
+
+.timeline-right {
+  text-align: right;
+}
+
+.timeline-left {
+  text-align: left;
+}
+
+.timeline-middle {
+  position: relative;
+  background: black;
+}
+
+.timeline-point {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+}
+
+.timeline-title, .timeline-date {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.timeline-paragraph {
+  font-size: 18px;
+}
