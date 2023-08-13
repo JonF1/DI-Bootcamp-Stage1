@@ -1,0 +1,33 @@
+.form-container  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 10px;
+}
+
+/* Needed higher specificity to adjust these nav links because of bootstrap */
+
+body header a {
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+body header button {
+  margin-top: 14px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav_links {
+  margin-top: 14px;
+}
+
+.biography-text {
+  margin-top: 10px;
+}
+
