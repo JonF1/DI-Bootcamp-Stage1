@@ -1,0 +1,33 @@
+#wrap {
+    background-color: #007bff;
+    width: 800px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li:first-letter {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+}
+
+h1 {
+    padding: 20px;
+}
+
+p {
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.copyright {
+    padding-bottom: 20px;
+}
+
+
+

@@ -1,0 +1,44 @@
+body {
+    background-color: orange;
+}
+
+#wrap {
+    background-color: bisque;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#wrap2 {
+    border: 5px dashed black;
+    border-top: none;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    border: 5px dashed black;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+
+ul li:first-letter {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 150%;
+}
+
+li {
+    list-style-type: none;
+    font-style: italic;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+}
