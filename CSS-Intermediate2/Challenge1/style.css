@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+  }
+
+#content {
+    float: right;
+    width: 66.6%;
+    box-sizing: border-box;
+    background-color: blue;
+    padding-left: 10px;
+    height: 100%;
+}
+
+#content li {
+    list-style-type: none;
+}
+
+#nav {
+    float: left;
+    width: 33.3%;
+    background-color: paleturquoise;
+    padding-left: 10px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#wrap {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+
+p.copyright {
+    text-align: center;
+    padding-left: 185px;
+}
