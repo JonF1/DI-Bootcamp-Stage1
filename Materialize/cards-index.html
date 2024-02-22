@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize CSS</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Cards</h2>
+
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/curry.jpg" alt="">
+                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                            <i class="material-icons">favorite</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Mango & Chickpea Curry</span>   
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus error quidem quibusdam temporibus? Maiores, reiciendis expedita, vitae voluptatum porro, error quae a reprehenderit cupiditate architecto molestiae veritatis non. Illo.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="">More details</a>
+                        <a href="">View ingredients</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pasta.jpg" alt="">
+                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                            <i class="material-icons">favorite</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Rainbow Pasta Salad</span>   
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus error quidem quibusdam temporibus? Maiores, reiciendis expedita, vitae voluptatum porro, error quae a reprehenderit cupiditate architecto molestiae veritatis non. Illo.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="">More details</a>
+                        <a href="">View ingredients</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section container" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tenetur velit aperiam natus explicabo quibusdam error culpa laudantium dolor recusandae sunt optio, totam qui nemo fuga omnis, iste quas corrupti?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tenetur velit aperiam natus explicabo quibusdam error culpa laudantium dolor recusandae sunt optio, totam qui nemo fuga omnis, iste quas corrupti?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tenetur velit aperiam natus explicabo quibusdam error culpa laudantium dolor recusandae sunt optio, totam qui nemo fuga omnis, iste quas corrupti?</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your email</label>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Choose a date you need me for...</label>
+                    </div>
+
+                    <div class="input-field">
+                        <p>Services required...</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Photography</span>
+                            </label>
+                            <label>
+                                <input type="checkbox">
+                                <span>Eating</span>
+                            </label>
+                        </p>
+                    </div>
+
+                    <div class="input-field center">
+                        <div class="btn">Submit</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About me</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dicta consequuntur earum quas delectus laborum cumque. Laborum mollitia ad quis accusantium odio porro vel veritatis sequi placeat perferendis, ipsum numquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dicta consequuntur earum quas delectus laborum cumque. Laborum mollitia ad quis accusantium odio porro vel veritatis sequi placeat perferendis, ipsum numquam.</p>
+                </div>
+
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3">Linkedin</a></li>
+                        <li><a class="grey-text text-lighten-3">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">
+                &copy; 2024 Yoni
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.datepicker');
+          var instances = M.Datepicker.init(elems, { disableWeekends: true });
+        })
+    </script>
+</body>
+</html>
