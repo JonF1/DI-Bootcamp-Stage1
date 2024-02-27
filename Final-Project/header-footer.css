@@ -4,6 +4,8 @@ header {
   border-bottom: 1px solid black;
 }
 
+/* Organises layout of the header/nav */
+
 button, li, a, p, h1 {
   font-family: 'Poiret One', cursive;
   font-size: 24px;

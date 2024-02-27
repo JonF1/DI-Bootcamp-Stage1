@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    font-family: 'Poiret One', cursive !important;
+    font-size: 24px !important;
+  }
+  
+.media {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.notice {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 100vh;
+    height: 60vh;
+  }
+
+/* Needed higher specificity to adjust these nav links because of bootstrap */
+
+body header a {
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;   
+  }
+  
+body header button {
+    margin-top: 14px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+  
+.nav_links {
+    margin-top: 14px;
+}
+
+.notice > .spinner-grow {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
